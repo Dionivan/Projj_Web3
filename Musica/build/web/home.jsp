@@ -24,7 +24,8 @@
             </nav>
         </header>
         <main>
-
+            <h1>Bem vindo <%= request.getAttribute("usuarioLogado")%>)</h1>
+        </main>
         <footer>
             <p>&copy Direitos de Dionivan - 2023</p>
         </footer>
