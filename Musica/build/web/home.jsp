@@ -1,7 +1,8 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="bt-br">
     <head>
-        <title>Discoteca Virtual</title>
+        <title>Inicio | Discoteca Virtual</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css"/>
@@ -19,29 +20,14 @@
                 <a href="#">Artistas</a>
                 <a href="#">Gênero</a>
                 <a href="#">Login</a>
-               </div>
-                
+               </div> 
             </nav>
         </header>
         <main>
-            <form action="Login" method="post" id="form-login">
-                <img src="img/login.png" alt="Imagem de login" width="200"/>
-                <br><br>
-                
-                <label for="usuario">Email: </label>
-                <input type="text" id="usuario" name="usuario" class="fields" placeholder="Digite seu email" required>
-                
-                <br><br>
-                
-                <label for="senha">Senha: </label>
-                <input type="password" id="senha" name="senha"  class="fields" placeholder="Digite sua senha" required>
-                
-                <br><br>
-                <input type="submit" value="Entrar">
-            </form>
-        </main>
+
         <footer>
             <p>&copy Direitos de Dionivan - 2023</p>
         </footer>
+
     </body>
 </html>
